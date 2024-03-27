@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../Project-CSS/project-homePage.css">
+  <link rel="stylesheet" href="../Project-CSS/stylefooter.css">
+  <link rel="stylesheet" href="../src/tailwind.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+      <section class=" sticky top-0 z-50">
+        <figure class="bar h-[60px] flex justify-around  absolute top-0 left-0 z-10 w-full ">
+        <div class="logo   h-full w-60 md:w-[250px] flex justify-evenly px-5 cursor-pointer">
+          <div class="imglogo w-20 md:w-96  h-full flex items-center mx-1">
+            <img src="../Imgae/bayon-image.jpg"  class="rounded-full h-full "  alt="">
+          </div>
+            <div class="namelogo  text-center flex items-center   text-white text-xl font-mono italic">ChargeLife</div>
+          
+        </div>
+          <nav class= "navbar text-white flex items-center hidden md:block">
+            <ul class="flex justify-evenly p-3  border-2  border-orange-500 shadow-md shadow-orange-500">
+              <li class="mx-4 text-white hover:text-orange-400 transform hover:scale-110 transition 1s"><a href="">HomePage</a></li>
+              <li class="mx-4 text-white hover:text-orange-400 transform hover:scale-110 transition 1s"><a href="">Tour</a></li>
+              <li class="mx-4 text-white hover:text-orange-400 transform hover:scale-110 transition 1s"><a href="">Our Serivce</a></li>
+              <li class="mx-4 text-white hover:text-orange-400 transform hover:scale-110 transition 1s"><a href="">News</a></li>
+              <li class="mx-4 text-white hover:text-orange-400 transform hover:scale-110 transition 1s"><a href="">Information Center</a></li>
+              <li class="mx-4 text-white hover:text-orange-400 transform hover:scale-110 transition 1s"><a href="">Gallery</a></li>
+            </ul>
+          </nav>
+          <div class="searchbar flex items-center">
+            <input type="text" class="w-[230px] py-2 px-2 m-1 rounded-lg outline-orange-500 border-2 hover:border-orange-500 focus:ring ring-orange-500 text-gray-500" placeholder="search...">
+            <div class="iconSearch"><i class="fa-solid fa-magnifying-glass text-white text-2xl mx-1 cursor-pointer"></i></div>
+          </div>   
+        </figure>
+   
+      </section>
+
+      <section>
+        <figure>
+          <div class="bgHomepage ">
+            <div class="bg-slider h-screen w-full bg-orange-400 relative top-0 left-0">
+            <img src="../Imgae/street to angkor.webp" width="100%"       class="bg-slide active object-cover absolute top-0 h-full"   alt="">
+            <img src="../Imgae/tree-temple.jpeg" width="100%"         class="bg-slide  object-cover absolute top-0 h-full"   alt="">
+            <img src="../Imgae/bayon-image.jpg" width="100%"  class="bg-slide  object-cover absolute top-0 h-full"   alt="">
+            <img src="../Imgae/logo-seim reap.webp" width="100%"  class="bg-slide  object-cover absolute top-0 h-full"   alt="">
+            <img src="../Imgae/seim reap image.webp" width="100%" class="bg-slide  object-cover absolute top-0 h-full"   alt="">
+            <div class="shawdowBlack bg-black h-full w-full opacity-50 absolute top-0"></div>
+
+          </div>
+
+            <div class="cardContentHomepage h-[250px] w-[400px]  flex flex-col justify-center  text-white absolute ">
+              <h2 class="text-4xl font-semibold"> Travel in Cambodia</h2>
+              <h4 class="text-3xl font-semibold   my-4">let's! we go to <span class="changeContent text-orange-500"></span></h4>
+              <div class="cardGetstart flex flex-col items-center ">
+                <input type="text" class="px-2 py-2 rounded-xl w-full border-2 outline-2 outline-orange-500 text-gray-500 hover:border-orange-500" placeholder="Your email address">
+                <div class="boxgetStart w-[80%] flex justify-between  my-5">
+                <div class="box   bg-inherit  hover:bg-orange-500 text-orange-500 hover:text-white   border-2 border-orange-500 hover:border-white       transform hover:scale-110 transition 1s cursor-pointer py-3 px-10 text-center ">Book now</div>
+                <div class="box bg-orange-500 hover:bg-inherit    text-white  hover:text-orange-500  border-2 border-white      hover:border-orange-500 transform hover:scale-110 transition 1s cursor-pointer py-3 px-10 text-center ">Get Start</div>
+              </div>
+              </div>
+            </div>
+            <div class="btn-slider w-full absolute z-10 bottom-10  flex  justify-center ">
+              <button class="btn-slide bg-orange-500 h-3 w-3 rounded-3xl mx-2  transform hover:scale-125 transition 2s active"></button>
+              <button class="btn-slide bg-orange-500 h-3 w-3 rounded-3xl mx-2  transform hover:scale-125 transition 2s"></button>
+              <button class="btn-slide bg-orange-500 h-3 w-3 rounded-3xl mx-2  transform hover:scale-125 transition 2s"></button>
+              <button class="btn-slide bg-orange-500 h-3 w-3 rounded-3xl mx-2  transform hover:scale-125 transition 2s"></button>
+              <button class="btn-slide bg-orange-500 h-3 w-3 rounded-3xl mx-2  transform hover:scale-125 transition 2s"></button>
+            </div>
+          </div>
+
+        </figure>
+      </section>
+
+
+      <!-- Recoment place !!!-->
+      <section>
+        <figure>
+          <div class="conatainer h-[170vh] md:h-[500px]   w-[98%]  m-auto">
+            <div class="boxtitile bg-orange-500 w-52 md:w-[15%] text-center py-2 rounded-bl-full rounded-tr-full border-2">
+              <h3 class="text-white font-semibold">Recommend Place</h3>
+            </div>
+
+            <div class="grid grid-cols-1 ">
+            <div class="grid grid-cols-2 md:grid-cols-4  col-span-1 gap-3 gap-y-0 h-[350px] w-full ">
+          
+              <div class="col-span-1   xl:w-[300px] sm:w-[20px]  h-[420px] border-2 border-white rounded-2xl overflow-hidden my-2">
+                <div class="card h-full bg-black group">
+                  <div class="cardImage h-[60%]  overflow-hidden relative">
+                    <img src="../Imgae/kompot2.jpg"  class="img object-center h-full w-full transform group-hover:scale-110 duration-700   transition ease-out 1s" alt="">
+                    <div class="boxshawdown absolute hover:bg-black z-10 cursor-pointer opacity-70 top-0 h-full w-full transition ease-linear 1s  ">
+                      <div class="txtProvinve absolute left-[-290px] top-5 z-50 text-2xl px-5 py-1 text-white transition ease-in 5s">
+                        <h2>Kompot Province</h2>
+                    </div>
+                    <div class="viewDetail absolute right-[-40%] bottom-5 z-50  text-sm  text-white transition ease-in 5s">
+                      <button class="bg-orange-500 border-2  px-2 py-1 z-50 rounded-xl transform hover:scale-105 transition-all 1s">View Detail</button>
+                  </div>
+                    </div>
+
+                  </div>
+                  <div class="cardDetail h-[40%] bg-gray-500">
+                        
+                    <div class=" flex justify-between text-2xl px-3 py-1 text-white">
+                          <h2 class="font-semibold">Rating</h2>
+                          <div class="star flex justify-around gap-1 text-yellow-500">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-regular fa-star "></i>
+                          </div>
+                      </div>
+                    <div class=" flex justify-between text-sm px-5 py-1 text-white">
+                        <h2>Siem Reap City is the home of Angkor wat, one of the greatest religious monuments in the world. Most visitors spend their...</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-span-1 xl:w-[300px] sm:w-[20px]  h-[420px] border-2 border-white rounded-2xl overflow-hidden my-2">
+                <div class="card h-full bg-black group">
+                  <div class="cardImage h-[60%] 0 overflow-hidden relative">
+                    <img src="../Imgae/logo-seim reap.webp"  class="img object-center h-full w-full transform group-hover:scale-110 duration-700   transition ease-out 1s" alt="">
+                    <div class="boxshawdown absolute hover:bg-black z-10 cursor-pointer opacity-70 top-0 h-full w-full transition ease-linear 1s  ">
+                      <div class="txtProvinve absolute left-[-290px] top-5 z-50 text-2xl px-5 py-1 text-white transition ease-in 5s">
+                        <h2>Siem Reap Province</h2>
+                    </div>
+                    <div class="viewDetail absolute right-[-40%] bottom-5 z-50  text-sm  text-white transition ease-in 5s">
+                      <button class="bg-orange-500 border-2  px-2 py-1 z-50 rounded-xl transform hover:scale-105 transition-all 1s">View Detail</button>
+                  </div>
+                    </div>
+
+                  </div>
+                  <div class="cardDetail h-[40%] bg-gray-500">
+                        
+                    <div class=" flex justify-between text-2xl px-3 py-1 text-white">
+                          <h2 class="font-semibold">Rating</h2>
+                          <div class="star flex justify-around gap-1 text-yellow-500">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-regular fa-star "></i>
+                          </div>
+                      </div>
+                    <div class=" flex justify-between text-sm px-5 py-1 text-white">
+                        <h2>Siem Reap City is the home of Angkor wat, one of the greatest religious monuments in the world. Most visitors spend their...</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-span-1 xl:w-[300px] sm:w-[20px]  h-[420px] border-2 border-white rounded-2xl overflow-hidden my-2">
+                <div class="card h-full bg-black group">
+                  <div class="cardImage h-[60%] bg-yellow-300 overflow-hidden relative">
+                    <img src="../Imgae/bg-kohkong.jpg"  class="img object-center h-full w-full group-hover:scale-110 duration-700   transition ease-out 1s" alt="">
+                    <div class="boxshawdown absolute hover:bg-black z-10 cursor-pointer opacity-70 top-0 h-full w-full transition ease-linear 1s  ">
+                      <div class="txtProvinve absolute left-[-290px] top-5 z-20 text-2xl px-5 py-1 text-white transition ease-in 5s">
+                        <h2>kohkong Province</h2>
+                    </div>
+                    <div class="viewDetail absolute right-[-40%] bottom-5 z-50  text-sm  text-white transition ease-in 5s">
+                      <button class="bg-orange-500 border-2  px-2 py-1 rounded-xl transform hover:scale-105 transition-all 1s">View Detail</button>
+                  </div>
+                    </div>
+
+                  </div>
+                  <div class="cardDetail h-[40%] bg-gray-500">
+                        
+                    <div class=" flex justify-between text-2xl px-3 py-1 text-white">
+                          <h2 class="font-semibold">Rating</h2>
+                          <div class="star flex justify-around gap-1 text-yellow-500">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-regular fa-star "></i>
+                          </div>
+                      </div>
+                    <div class=" flex justify-between text-sm px-5 py-1 text-white">
+                        <h2>Siem Reap City is the home of Angkor wat, one of the greatest religious monuments in the world. Most visitors spend their...</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-span-1 xl:w-[300px] sm:w-[20px]  h-[420px] border-2 border-white rounded-2xl overflow-hidden my-2">
+                <div class="card h-full bg-black group">
+                  <div class="cardImage h-[60%]    overflow-hidden relative">
+                    <img src="../Imgae/sihanouk-banner.jpg"  class="img object-center h-full w-full group-hover:scale-110 duration-700   transition ease-out 1s" alt="">
+                    <div class="boxshawdown absolute hover:bg-black z-10 cursor-pointer opacity-70 top-0 h-full w-full transition ease-linear 1s  ">
+                      <div class="txtProvinve absolute left-[-290px] top-5 z-20 text-2xl px-5 py-1 text-white transition ease-in 5s">
+                        <h2>Sihanouk ville</h2>
+                    </div>
+                    <div class="viewDetail absolute right-[-40%] bottom-5 z-50  text-sm  text-white transition ease-in 5s">
+                      <button class="bg-orange-500 border-2  px-2 py-1 rounded-xl transform hover:scale-105 transition-all 1s">View Detail</button>
+                  </div>
+                    </div>
+
+                  </div>
+                  <div class="cardDetail h-[40%] bg-gray-500">
+                        
+                    <div class=" flex justify-between text-2xl px-3 py-1 text-white">
+                          <h2 class="font-semibold">Rating</h2>
+                          <div class="star flex justify-around gap-1 text-yellow-500">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-regular fa-star "></i>
+                          </div>
+                      </div>
+                    <div class=" flex justify-between text-sm px-5 py-1 text-white">
+                        <h2>Siem Reap City is the home of Angkor wat, one of the greatest religious monuments in the world. Most visitors spend their...</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        </figure>
+      </section>
+
+      <!-- Container Recomment place end -->
+
+      <!-- Category Tour -->
+      <section>
+        <figure>
+          <div class="containerCategoryTour w-full h-[200vh] bg-slate-400">
+            
+            <div class="boxtitile bg-orange-500 w-52 md:w-[15%] text-center py-2 rounded-bl-full rounded-tr-full border-2">
+              <h3 class="text-white font-semibold">Category Travel</h3>
+            </div>
+
+            <div class="listCategory  w-[98%] bg-slate-600 m-auto my-4 py-3 text-sm md:text-xl ">
+              <ul class="flex justify-evenly font-mono font-bold text-white ">
+                <li class="hover:text-orange-500 hover:scale-105 duration-300"><a href="">Temple & History</a></li>
+                <li class="hover:text-orange-500 hover:scale-105 duration-300"><a href="">Sea & Beach</a></li>
+                <li class="hover:text-orange-500 hover:scale-105 duration-300"><a href="">Advanture & Camping</a></li>
+                <li class="hover:text-orange-500 hover:scale-105 duration-300"><a href="">Mountain & Waterfall</a></li>
+              </ul>
+            </div>
+            <hr style="border: 2px solid rgb(255, 128, 0);">
+            
+            <!-- CardListProvince -->
+            <div class="provinceList w-[98%]  bg-blue-600 m-auto">
+            <div class="containerProvince   grid grid-cols-2 gap-3  my-2     ">
+              
+              <div class="cardProvince relative w-[100%] h-[300px] col-span-1  flex flex-col  overflow-hidden group cursor-pointer shadow-2xl  shadow-black ">
+                <img src="../Imgae/bg-seim reap.jpg" width="100%"  class="z-0 h-full object-center group-hover:scale-105 duration-300" alt="">
+              <div class="shawdowncard absolute top-0 left-0 z-10 w-full h-full hover:bg-black opacity-50 duration-300">
+                <a href="#" class="nameProvince absolute top-5 left-[-500px] z-50   text-white text-2xl md:text-5xl font-mono font-semibold font ">
+                  Seim Reap Province</a>
+              </div>
+              <div class="logoProvince absolute bottom-5 right-1 flex justify-center z-50">
+                <img src="../Imgae/logo-seim reap.webp" class="w-[80%] h-[60px] rounded-[100%] object-center border-2 border-orange-500 shadow-2xl shadow-white" alt="">
+              </div>
+              </div>
+
+              <div class="cardProvince relative w-[100%] h-[300px]  flex flex-col  overflow-hidden group cursor-pointer shadow-2xl shadow-black">
+                <img src="../Imgae/kohke-temple.jpg" width="100%"  class="z-0 h-full object-center group-hover:scale-105 duration-300" alt="">
+              <div class="shawdowncard absolute top-0 left-0 z-10 w-full h-full hover:bg-black opacity-50 duration-300">
+                <a href="#" class="nameProvince absolute top-5 left-[-550px] z-50   text-white text-2xl md:text-5xl font-mono font-semibold font ">
+                  Pres Vihear Province</a>
+              </div>
+              <div class="logoProvince absolute bottom-5 right-1 flex justify-center z-50">
+                <img src="../Imgae/PresVihea-logo.jpg" class="w-[80%] h-[60px] rounded-[100%] object-center border-2 border-orange-500 shadow-2xl shadow-white" alt="">
+              </div>
+              </div>
+
+              <div class="cardProvince relative w-[100%] h-[300px] col-span-1  flex flex-col  overflow-hidden group cursor-pointer shadow-2xl shadow-black">
+                <img src="../Imgae/bg-btb.jpg" width="100%"  class="z-0 h-full object-center group-hover:scale-105 duration-300" alt="">
+              <div class="shawdowncard absolute top-0 left-0 z-10 w-full h-full hover:bg-black opacity-50 duration-300">
+                <a href="#" class="nameProvince absolute top-5 left-[-550px] z-50   text-white text-2xl md:text-5xl font-mono font-semibold font ">
+                  Battambong Province</a>
+              </div>
+              <div class="logoProvince absolute bottom-5 right-1 flex justify-center z-50">
+                <img src="../Imgae/battdombong-logo.jpg" class="w-[80%] h-[60px] rounded-[100%] object-center border-2 border-orange-500 shadow-2xl shadow-white" alt="">
+              </div>
+              </div>
+
+              <div class="cardProvince relative w-[100%] h-[300px] col-span-1  flex flex-col  overflow-hidden group cursor-pointer shadow-2xl shadow-black">
+                <img src="../Imgae/bg-btb.jpg" width="100%"  class="z-0 h-full object-center group-hover:scale-105 duration-300" alt="">
+              <div class="shawdowncard absolute top-0 left-0 z-10 w-full h-full hover:bg-black opacity-50 duration-300">
+                <a href="#" class="nameProvince absolute top-5 left-[-550px] z-50   text-white text-2xl md:text-5xl font-mono font-semibold font ">
+                  Battambong Province</a>
+              </div>
+              <div class="logoProvince absolute bottom-5 right-1 flex justify-center z-50">
+                <img src="../Imgae/battdombong-logo.jpg" class="w-[80%] h-[60px] rounded-[100%] object-center border-2 border-orange-500 shadow-2xl shadow-white" alt="">
+              </div>
+              </div>
+
+              <div class="cardProvince relative w-[100%] h-[300px] col-span-1  flex flex-col  overflow-hidden group cursor-pointer shadow-2xl shadow-black">
+                <img src="../Imgae/bg-btb.jpg" width="100%"  class="z-0 h-full object-center group-hover:scale-105 duration-300" alt="">
+              <div class="shawdowncard absolute top-0 left-0 z-10 w-full h-full hover:bg-black opacity-50 duration-300">
+                <a href="#" class="nameProvince absolute top-5 left-[-550px] z-50   text-white text-2xl md:text-5xl font-mono font-semibold font ">
+                  Battambong Province</a>
+              </div>
+              <div class="logoProvince absolute bottom-5 right-1 flex justify-center z-50">
+                <img src="../Imgae/battdombong-logo.jpg" class="w-[80%] h-[60px] rounded-[100%] object-center border-2 border-orange-500 shadow-2xl shadow-white" alt="">
+              </div>
+              </div>
+
+              <div class="cardProvince relative w-[100%] h-[300px] col-span-1  flex flex-col  overflow-hidden group cursor-pointer shadow-2xl shadow-black">
+                <img src="../Imgae/bg-btb.jpg" width="100%"  class="z-0 h-full object-center group-hover:scale-105 duration-300" alt="">
+              <div class="shawdowncard absolute top-0 left-0 z-10 w-full h-full hover:bg-black opacity-50 duration-300">
+                <a href="#" class="nameProvince absolute top-5 left-[-550px] z-50   text-white text-2xl md:text-5xl font-mono font-semibold font ">
+                  Battambong Province</a>
+              </div>
+              <div class="logoProvince absolute bottom-5 right-1 flex justify-center z-50">
+                <img src="../Imgae/battdombong-logo.jpg" class="w-[80%] h-[60px] rounded-[100%] object-center border-2 border-orange-500 shadow-2xl shadow-white" alt="">
+              </div>
+              </div>
+
+              </div>
+            </div>
+            <!-- CardListProvince End-->
+          </div>
+          </div>
+        </figure>
+      </section>
+
+      <!-- Footer -->
+
+      <section>
+        <footer class="footer bg-slate-800">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Privacy policy </a></li>
+                            <li><a href="#">Our service</a></li>
+                            <li><a href="#">Affilate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get help</h4>
+                        <ul>
+                            <li><a href="#">FQA</a></li>
+                            <li><a href="#">Shhiping</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Order status</a></li>
+                            <li><a href="#">Payment option</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#">Camping product</a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#">Our service</a></li>
+                            <li><a href="#">Delivery</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Follow us</h4>
+                        <div class="socail-links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                            <a href="#"><i class="fa-solid fa-phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Footer End -->
+</body>
+<script src="../Project-JS/project-js.js"></script>
+</html>
